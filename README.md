@@ -4,7 +4,7 @@ This program was made with 3 more libraries, concurrently, live-server and json-
 
 ## Before you start using the program:
 The response from our fake API is based on a file named "db.json", so you gotta erase all its data and type {employees[]} if you want to inser employees data. This file contains the data from our "database", that means that every POST we make is going to insert the values of the JSON into this file.<br>
-      For Example, if we make a POST with the following values:
+      For Example, if we make a POST with the following values:<br>
       "id": 1,<br>
       "first_name": "Sebastian",<br>
       "last_name": "Kappan",<br>
