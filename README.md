@@ -7,4 +7,6 @@ This program was made with 3 more libraries, concurrently, live-server and json-
 2 - navigate to the repository and open a terminal.<br>
 3 - use the following command: npm run start-dev <br>
 
-Then a webpage will open and you are ready to go! Use this program to learn all the features from axios ;)
+Then a webpage will open and you are ready to go! Use this program to learn all the features from axios ;)<br>
+<br>
+P.S: This program was inspired by https://medium.com/codingthesmartway-com-blog/getting-started-with-axios-166cb0035237
