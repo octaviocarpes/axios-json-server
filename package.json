@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start-live-server": "live-server --port=8080 --open=container/index.html",
+    "start-json-server": "json-server --watch db.json",
+    "start-dev": "concurrently --kill-others \"npm run start-live-server\" \"npm run start-json-server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
   }
 }
