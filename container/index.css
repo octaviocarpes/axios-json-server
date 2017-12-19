@@ -1,0 +1,41 @@
+.container{
+    border: 2px solid black;
+}
+
+.jumbotron{
+    border: 2px solid black;
+    width: 650px;
+    position: relative;
+    left:379px;
+}
+
+.panel{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 650px;
+}
+
+.panel-primary{
+    top: 40%;
+    left: 374px;
+}
+
+.panel-second{
+    top: 38%;
+    left: 374px;
+}
+
+.panel-third{
+    left: 374px;
+}
+
+.btn{
+   color: black;
+   background-color: gold;
+   border-radius: 3px;
+   width: 175px;
+   height: 30px;
+   
+}
