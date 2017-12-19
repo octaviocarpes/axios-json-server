@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Kappan",
+      "email": "sebastiankappan@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Sebastiano",
+      "last_name": "Kappano",
+      "email": "sebastianokappano@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Kappa",
+      "last_name": "Sebastian",
+      "email": "kappaSebastian@gmail.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Octavio",
+      "last_name": "Carpes",
+      "email": "octavio.carpes@ilegra.com"
+    },
+    {
+      "id": "5",
+      "first_name": "Arthur",
+      "last_name": "Puthin",
+      "email": "arthur.puthin@ilegra.com"
+    }
+  ]
+}
