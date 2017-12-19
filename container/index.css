@@ -1,5 +1,6 @@
 .container{
     border: 2px solid black;
+    position: relative;
 }
 
 .jumbotron{
@@ -7,6 +8,7 @@
     width: 650px;
     position: relative;
     left:379px;
+    font-family: 'Ubuntu', sans-serif;    
 }
 
 .panel{
@@ -15,13 +17,14 @@
     padding: 5px;
     position: relative;
     width: 650px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .panel-primary{
     top: 40%;
     left: 374px;
 }
-
+ 
 .panel-second{
     top: 38%;
     left: 374px;
@@ -33,9 +36,26 @@
 
 .btn{
    color: black;
-   background-color: gold;
+   background-color: orangered;
    border-radius: 3px;
    width: 175px;
    height: 30px;
-   
+   font-family: 'Oswald', sans-serif;
+   padding: 0;
+   border: none;
+   margin: 5px;
+}
+
+.btn-clear-get, .btn-clear-post{
+    background-color: darkcyan;
+    position: relative;
+    left: 275px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.form-group{
+
 }

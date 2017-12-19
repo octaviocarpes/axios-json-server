@@ -41,9 +41,9 @@ onsubmit = function (event) {
             email: paramElements[3]
         }
     ).then(function (response) {
-        console.log(response);
+        alert('Post Successfull!');
     }).catch(function (error) {
-        console.log(error);
+        alert('Post Error: ' + error);
     });
 }
 
@@ -70,6 +70,7 @@ function generateErrorHTMLOutput(error) {
 }
 
 function clearOutput() {
+    event.preventDefault;
     var resultElement = document.getElementById('getResult1');
     resultElement.innerHTML = '';
     var resultElement = document.getElementById('getResult2');

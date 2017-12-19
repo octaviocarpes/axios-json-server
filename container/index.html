@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Ubuntu" rel="stylesheet">
     <title>JS Axios Demo</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="index.css">
@@ -12,7 +14,7 @@
 
 <body>
     <div class="container">
-        <h1 style="position:relative; left:40%;">JS Axios Demo</h1>
+        <h1 style="position:relative; left:40%; font-family: 'Bungee', cursive;">JS Axios Demo</h1>
         <div class="jumbotron">
             <h1>Welcome To Axios</h1>
             <h4>This applications uses Axios. Axios is a Promise-based HTTP client for JavaScript which can be used in your front-end
@@ -22,7 +24,7 @@
             <div class="panel-heading">GET Request</div>
             <div class="panel-body">
                 <button class="btn" onclick="performGetRequest1()">Get Todos</button>
-                <button class="btn btn-clear-get1" onclick="clearOutput()">Clear</button>
+                <button class="btn btn-clear-get" onclick="clearOutput()">Clear</button>
                 <div class="panel-body" id="getResult1"></div>
             </div>
         </div>
@@ -32,7 +34,7 @@
                 <input type="text" class="form-control" id="todoId" placeholder="Todo ID ..." />
                 <br/>
                 <button class="btn" onclick="performGetRequest2()">Get Todos</button>
-                <button class="btn btn-clear-get2" onclick="clearOutput()">Clear</button>
+                <button class="btn btn-clear-get" onclick="clearOutput()">Clear</button>
                 <div class="panel-body" id="getResult2"></div>
             </div>
         </div>
@@ -45,9 +47,8 @@
                         <input type="text" class="form-control" id="todoTitle" placeholder="Todo Title ...">
                     </div>
                     <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn btn-clear-post" onclick="clearOutput()">Clear</button>
                 </form>
-                <br/>
-                <button class="btn btn-clear-post" onclick="clearOutput()">Clear</button>
                 <div class="panel-body" id="postResult"></div>
             </div>
         </div>
